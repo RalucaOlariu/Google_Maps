@@ -1,0 +1,16 @@
+{
+  "name": "GoogleMaps",
+  "version": "1.0.0",
+  "description": "Implement the Google Maps",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "serve": "python3 -m http.server 8686"
+  },
+  "author": "TeamD",
+  "devDependencies": {
+    "@types/google-maps": "^3.2.2",
+    "typescript": "^4.2.2"
+  }
+}
